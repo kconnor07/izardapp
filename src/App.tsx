@@ -2580,6 +2580,29 @@ const GROUPES_MSG_DB = [
 // ── SOCIAL FEED ──
 const SOCIAL_FEED_DB = [
   {
+    id: 5,
+    user: "Gabriela",
+    avatar: "⛰️",
+    time: "il y a 1h",
+    niveau: 10,
+    type: "rando",
+    randoId: 8,
+    randoNom: "Pyrénées",
+    text: "Découvrez la beauté sauvage des Pyrénées avec Isard ! Chaque sentier est une nouvelle aventure. 🏔️✨ #IsardApp #Randonnée #Pyrénées #Occitanie",
+    image: "https://i.postimg.cc/3J32G3F7/Capture-d-e-cran-2026-02-24-a-16-47-55.avif",
+    likes: 87,
+    comments: 15,
+    shares: 12,
+    liked: false,
+    topComments: [
+      {
+        user: "Laura L.",
+        avatar: "👩",
+        text: "Magnifique capture ! Les Pyrénées dans toute leur splendeur.",
+      },
+    ],
+  },
+  {
     id: 1,
     user: "Marie L.",
     avatar: "👩",
@@ -2682,28 +2705,6 @@ const SOCIAL_FEED_DB = [
         user: "Claire V.",
         avatar: "👩‍🦳",
         text: "Le plus beau spot des Pyrénées, sans hésitation.",
-      },
-    ],
-  },  {
-    id: 5,
-    user: "Isard",
-    avatar: "⛰️",
-    time: "il y a 1h",
-    niveau: 10,
-    type: "rando",
-    randoId: 8,
-    randoNom: "Pyrénées",
-    text: "Découvrez la beauté sauvage des Pyrénées avec Isard ! Chaque sentier est une nouvelle aventure. 🏔️✨ #Isard #Randonnée #Pyrénées #Occitanie",
-    image: "https://i.postimg.cc/3J32G3F7/Capture-d-e-cran-2026-02-24-a-16-47-55.avif",
-    likes: 87,
-    comments: 15,
-    shares: 12,
-    liked: false,
-    topComments: [
-      {
-        user: "Laura L.",
-        avatar: "👩",
-        text: "Magnifique capture ! Les Pyrénées dans toute leur splendeur.",
       },
     ],
   },
